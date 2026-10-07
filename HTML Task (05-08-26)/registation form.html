@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grand Paradise Hotel</title>
+    <link rel="stylesheet" href="style hotel.css">
+</head>
+<body>
+
+<header>
+    <h1>FAROOQ AND SON'S GRAND RESIDENCY</h1>
+    <nav>
+        <a href="HTML Task (05-08-26).html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="amenities.html">Amenities</a>
+        <a href="about.html">About Us</a>
+        <a href="registation form.html">Registration</a>
+    </nav>
+</header>
+<section>
+
+    
+
+    <div class="container">
+        <h1>FAROOQ AND SON'S GRAND RESIDENCY</h1>
+        <h2>Guest Registration Form</h2>
+
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label>Gender</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male" style="display:inline;">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female" style="display:inline;">Female</label>
+            </div>
+
+            <label for="checkin">Check-in Date</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="room">Room Type</label>
+            <select id="room" name="room">
+                <option value="">-- Select Room --</option>
+                <option value="single">Single Room</option>
+                <option value="suite">Exicutive Suite Room</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="family">Family Room </option>
+            </select>
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" name="guests" min="1" max="10" placeholder="Enter number of guests">
+
+            <button type="submit" class="button">Register Now</button>
+        
+</section>
+<footer>All Rights Reserved.
+    <p>&copy; 2026 FAROOQ AND SON'S GRAND RESIDENCY. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

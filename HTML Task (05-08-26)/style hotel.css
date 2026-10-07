@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(179, 227, 246);
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1566073771259-6a8506099945") center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+section {
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+ul {
+    line-height: 2;
+    font-size: 18px;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h1 {
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #8b5e3c;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color:brown;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input:focus, select:focus {
+            border-color: #8b5e3c;
+            outline: none;
+        }
+
+        .gender {
+            margin-top: 5px;
+        }
+
+        .gender input {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        .button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #8b5e3c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #6f482d;
+        }
